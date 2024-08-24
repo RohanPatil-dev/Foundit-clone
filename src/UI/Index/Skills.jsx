@@ -1,5 +1,7 @@
 import React from "react"
 import Company from "./Company"
+import Adds from "./Adds"
+import Index_Footer from "./Index_Footer"
 
 export default function Skills() {
   return (
@@ -15,6 +17,10 @@ export default function Skills() {
         </div>
 
         <Company />
+
+        <Adds/>
+
+        <Index_Footer />
        </div>
     </>
   )
