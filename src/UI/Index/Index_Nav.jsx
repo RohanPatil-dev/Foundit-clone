@@ -38,7 +38,6 @@ export default function Index_Nav() {
                
                     <button className="btn employer-login">Employers Login</button>
                     </div>
-          
                 </div>
             </nav>
 

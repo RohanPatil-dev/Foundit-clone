@@ -312,6 +312,10 @@ html {
      font-weight: bold;
   }
 
+  .navbar-element li:hover{
+     border-bottom: 3px solid rebeccapurple;
+  }
+
   .index-nav{
     border-radius: 0px 0px 30px 30px;
     z-index: 1;

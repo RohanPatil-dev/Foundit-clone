@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Index_Nav from "./Index_Nav";
 import { rankItem } from "@tanstack/match-sorter-utils";
+import Skills from "./Skills";
 
 export default function Index_Banner() {
 
@@ -59,7 +60,13 @@ export default function Index_Banner() {
             <button className="submit-btn">Submit</button>
           </div>
         </div>
+
+        <Skills/>
+
+        
       </div>
+
+
     </>
   );
 }
