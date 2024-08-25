@@ -43,7 +43,7 @@ export default function Adds() {
             </div>
 
             <div className="simens-add">
-                <a href=""><img src="./Images/Companies/simens.png" alt="" /></a>
+                <a href="https://jobs.siemens.com/careers?query=IT&location=India&pid=563156115492532&domain=siemens.com&sort_by=relevance&utm_source=j_c_in&triggerGoButton=false&utm_source=EBIN_Foundit" target="_blank"><img src="./Images/Companies/simens.png" alt="" /></a>
             </div>
 
         </>

@@ -6,8 +6,10 @@ import Signup from "./UI/User/Signup";
 
 import "./CSS/Navbar.css"
 import "./CSS/Index_Page.css"
+import "./CSS/Jobs.css"
 
 import Index_banner from "./UI/Index/Index_banner";
+import Jobs from "./UI/Jobs/Jobs";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
        <Footer/> */}
 
   
-       <Index_banner/>
+       {/* <Index_banner/> */}
+
+       <Jobs />
     </>
   );
 }
