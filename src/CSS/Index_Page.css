@@ -1,4 +1,3 @@
-
 .employer-login {
   background-color: white;
 }
@@ -140,7 +139,7 @@
   border: none;
   outline: none;
   cursor: pointer;
- 
+
 }
 
 .skills button img {
@@ -166,21 +165,136 @@
 }
 
 /* adds */
-.add-slider{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
+.add-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
 }
 
-.simens-add{
+.simens-add {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 80px;
 }
 
-.simens-add a img{
+.simens-add a img {
   border-radius: 30px;
+}
+
+/* index footer */
+.index-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 100px;
+
+}
+
+.footer {
+  background-color: #1c2841;
+  /* color: #fff; */
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 160px;
+}
+
+
+.custom-select-container {
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ border-bottom: 1px solid #7b7474;
+}
+
+.custom-select {
+  width: 500px;
+  padding: 10px;
+  background-color: #1c2841;
+
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.custom-select:hover {
+  background-color: #1c2841;
+}
+
+.custom-select-arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transition: transform 0.3s ease;
+}
+
+.custom-select-arrow.down {
+  transform: rotate(45deg);
+}
+
+.custom-select-arrow.up {
+  transform: rotate(-135deg);
+}
+
+.custom-dropdown {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background-color: #1c2841;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.custom-dropdown a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.custom-dropdown a:hover {
+  background-color: #1c2841;
+}
+
+.links {
+  border-bottom: 1px solid white;
+  padding: 10px;
+  background-color: #1c2841;
+}
+
+.links p a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.links p span {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.media a{
+    margin-left: 12px;
+}
+
+.social{
+  width: 750px;
+  height: 300px;
+  background-color: #1c2841;
 }

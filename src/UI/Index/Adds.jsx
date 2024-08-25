@@ -45,6 +45,7 @@ export default function Adds() {
             <div className="simens-add">
                 <a href=""><img src="./Images/Companies/simens.png" alt="" /></a>
             </div>
+
         </>
     )
 }
