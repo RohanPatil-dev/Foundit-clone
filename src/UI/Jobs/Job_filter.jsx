@@ -1,4 +1,5 @@
 import React from "react"
+import JobPages from "./SubPages/JobPages"
 
 
 export default function Job_filter() {
@@ -23,6 +24,8 @@ export default function Job_filter() {
                     </nav>
                 </div>
             </div>
+
+            <JobPages/>
         </>
     )
 }
