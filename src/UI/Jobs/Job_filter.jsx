@@ -5,9 +5,9 @@ import JobPages from "./SubPages/JobPages"
 export default function Job_filter() {
     return (
         <>
-            <div className="container">
+            <div className="" style={{width : "80rem",marginLeft : "80px"}}>
                 <div>
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4 job-filter">
+                    <nav class="navbar navbar-expand-lg mt-4 job-filter">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item active ">
@@ -23,9 +23,11 @@ export default function Job_filter() {
                         </div>
                     </nav>
                 </div>
+
+                <JobPages/>
             </div>
 
-            <JobPages/>
+  
         </>
     )
 }

@@ -166,30 +166,30 @@
 .gridy-job {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 40px;
-    border: 1px solid red;
+    justify-content: center;
 }
 
 .gridy-job > div {
-    border: 1px solid red;
     padding: 30px;
+}
+
+.job-container{
+    width: 600px;
 }
 
 
 /* recommended */
-.recommend{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.recommended{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   overflow: scroll;
+   height: 60rem;
+   width: 33rem;
 }
 
-.recommended{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 30px;
+.recommended::-webkit-scrollbar {
+    display: none;
 }
 
 .recommended p {
@@ -215,3 +215,22 @@
     margin-bottom: 10px; 
   }
   
+  .selected-card{
+     border: 2px solid #8404c4;
+  }
+
+  .arrow{
+    padding: 10px;
+    background-color: #8404c4;
+    position: absolute;
+    right: -10px;
+    top: 30px;
+    width: 10px;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  .job-description{
+    border-radius: 20px;
+    margin-top: 30px;
+}

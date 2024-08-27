@@ -3,7 +3,7 @@ import Recommended from "./Recommended"
 
 export default function JobContainer() {
   return (
-    <div>
+    <div className="job-container">
         <Recommended/>
     </div>
   )

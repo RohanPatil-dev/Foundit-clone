@@ -32,6 +32,22 @@ const data = [
     experience : "0-2 Years",
     jobs : ["ES6","context API","IOS/Android","Agile/Scrum"]
  },
+ {
+   name : "backend developer",
+   company_name : "digital glyde",
+   type : "Full time",
+   place : "Delhi, Hyderabad / Secunderabad, Telangana, Bengaluru /",
+   experience : "0-3 Years",
+   jobs : ["ci/cd pipelines","microservices architecture","azure","python","vue"]
+},
+{
+   name : "react native + react js developer",
+   company_name : "Seventh Triangle",
+   type : "Full time",
+   place : "Noida, India",
+   experience : "0-2 Years",
+   jobs : ["ES6","context API","IOS/Android","Agile/Scrum"]
+},
 ]
 
 module.exports = {data}
